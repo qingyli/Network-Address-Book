@@ -1,0 +1,37 @@
+Qingyuan Li
+8362901935
+liqingyu@usc.edu
+
+PA1
+
+***The server copy might be different from the github version.
+   The github one id the correct one- in case server version does not compile or wrong
+
+contact.cpp
+In line 57 and 79 use the code from Guy Avraham using the technique to find the condition of if find the substring
+   //https://stackoverflow.com/questions/2340281/check-if-a-string-contains-a-string-in-c
+   Everything relate to npos is cited from this author in all .cpp files- in case I miss other lines.
+   
+network.cpp
+for option 2, line 299,
+   I create an array of size 1-- to store all possible filenames contains .db.
+   I assume the maximum of the .db file inside a directory is 100.
+in line 305,
+   I used strstr method to find the substr and check it from HappyTran
+   https://stackoverflow.com/questions/2340281/check-if-a-string-contains-a-string-in-c
+   
+   
+   
+PA2
+
+testDB.db is the testfile I used to test new load and remove function.
+
+I assume nobody in database has a name contain "-".
+
+network.cpp
+line 273
+I used clear() for vector form geeksforgeeks
+https://www.geeksforgeeks.org/vector-erase-and-clear-in-cpp/
+
+
+
